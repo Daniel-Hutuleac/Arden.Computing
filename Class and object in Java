@@ -1,0 +1,11 @@
+class MyPrint { // new clas named "MyPrint"
+                //A class is a template used to create objects and to define object data types and methods
+ String x = "Hello!";}
+ 
+public class Hello { // main class
+    public static void main(String[] args)  
+      { MyPrint myObj = new MyPrint(); // Creating an object "myObj"
+                                       // An object is an instance of java class
+         System.out.println(myObj.x);  // Displays variable "x" from object "myObj"
+      }
+}
